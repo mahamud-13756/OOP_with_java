@@ -15,6 +15,10 @@ public class Main_Class_for_Run {
       System.out.println("Email: "+student_1.email);
       System.out.println("Address: "+student_1.address);
       System.out.println("Phone: "+student_1.phn);
+
+      Student student_2;
+      student_2 = new Student();
+
    }
 
 

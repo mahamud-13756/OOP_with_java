@@ -4,7 +4,15 @@ public class Student_3 {
     public String address;
     public int age;
 
-    void Display(String name,int age,String address){
+    void setpara(String n,int a,String ad){
+        name=n;
+        age=a;
+        address=ad;
+
+    }
+
+
+    void Display(){
 
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);

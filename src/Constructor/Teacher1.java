@@ -5,21 +5,6 @@ public class Teacher1 {
     int id;
     String dept;
     String sub;
-
-    Teacher1(){                                    // Default constructor
-        System.out.println("I am a teacher.");
-        System.out.println("--------------");
-    }
-    Teacher1(String name,int id,String dept,String sub){                // // parameterised constructor
-       Display();
-    }
-    Teacher1(String name,int id) {                                          // Constructor Overloading
-//        System.out.println("Name: " + name);
-//        System.out.println("ID: " + id);
-//        System.out.println("--------------");
-        Display();
-
-    }
     void Display(){
 
         System.out.println("Name: "+name);
@@ -28,6 +13,25 @@ public class Teacher1 {
         System.out.println("Sub: "+sub);
         System.out.println("--------------");
     }
+    Teacher1(){                                    // Default constructor
+        System.out.println("I am a teacher.");
+        System.out.println("--------------");
+    }
+    Teacher1(String name,int id,String dept,String sub){                // // parameterised constructor
+        this.name=name;
+        this.id=id;
+        this.dept=dept;
+        this.sub=sub;
+        Display();
+
+    }
+    Teacher1(String name,int id) {                                          // Constructor Overloading
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("--------------");
+
+    }
+
     public static void main(String[] args) {
 
     Teacher1 ob1=new Teacher1();

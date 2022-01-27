@@ -6,18 +6,18 @@ public class Teacher1 {
     String dept;
     String sub;
 
-    Teacher1(){
+    Teacher1(){                                    // Default constructor
         System.out.println("I am a teacher.");
         System.out.println("--------------");
     }
-    Teacher1(String name,int id,String dept,String sub){
+    Teacher1(String name,int id,String dept,String sub){                // // parameterised constructor
         System.out.println("Name: "+name);
         System.out.println("ID: "+id);
         System.out.println("Dept: "+dept);
         System.out.println("Sub: "+sub);
         System.out.println("--------------");
     }
-    Teacher1(String name,int id) {
+    Teacher1(String name,int id) {                                          // Constructor Overloading
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
         System.out.println("--------------");

@@ -17,11 +17,15 @@ public class Teacher1 {
         System.out.println("I am a teacher.");
         System.out.println("--------------");
     }
-    Teacher1(String name,int id,String dept,String sub){                // // parameterised constructor
-        this.name=name;
-        this.id=id;
-        this.dept=dept;
-        this.sub=sub;
+    Teacher1(String n,int i,String d,String s){                // // parameterised constructor
+//        this.name=name;
+//        this.id=id;
+//        this.dept=dept;
+//        this.sub=sub;
+        name=n;
+        id=i;
+        dept=d;
+        sub=s;
         Display();
 
     }

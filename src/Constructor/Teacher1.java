@@ -1,7 +1,7 @@
 package Constructor;
 
 public class Teacher1 {
-    String Name;
+    String name;
     int id;
     String dept;
     String sub;
@@ -11,15 +11,21 @@ public class Teacher1 {
         System.out.println("--------------");
     }
     Teacher1(String name,int id,String dept,String sub){                // // parameterised constructor
+       Display();
+    }
+    Teacher1(String name,int id) {                                          // Constructor Overloading
+//        System.out.println("Name: " + name);
+//        System.out.println("ID: " + id);
+//        System.out.println("--------------");
+        Display();
+
+    }
+    void Display(){
+
         System.out.println("Name: "+name);
         System.out.println("ID: "+id);
         System.out.println("Dept: "+dept);
         System.out.println("Sub: "+sub);
-        System.out.println("--------------");
-    }
-    Teacher1(String name,int id) {                                          // Constructor Overloading
-        System.out.println("Name: " + name);
-        System.out.println("ID: " + id);
         System.out.println("--------------");
     }
     public static void main(String[] args) {
@@ -27,5 +33,6 @@ public class Teacher1 {
     Teacher1 ob1=new Teacher1();
     Teacher1 ob2=new Teacher1("Mahamud",101,"CSE","Algorith");
     Teacher1 ob3=new Teacher1("Najib",102);
+
     }
 }

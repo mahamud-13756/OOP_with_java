@@ -8,5 +8,6 @@ public class MathDemo {
         System.out.println(Math.PI);
         System.out.println(Math.log(1));
         System.out.println(Math.log(9));
+        System.out.println(Math.max(2,9));
     }
 }

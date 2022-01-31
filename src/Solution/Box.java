@@ -5,11 +5,11 @@ public class Box {
     double height;
     double width;
     double depth;
-    Box(double h,double w,double d){
+    Box(double height,double width,double depth){
 
-        height=h;
-        width=w;
-        depth=d;
+        height=height;
+        width=width;
+        depth=depth;
 
     }
     void displayVol(){

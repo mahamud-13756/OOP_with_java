@@ -2,8 +2,8 @@ package MethodeOverloading;
 
 public class M_overload {
 
-    void add(int a, int b){
-        System.out.println(a+b);
+    int add(int a, int b){
+        return a+b;
     }
     void add(double a, double b){
         System.out.println(a+b);

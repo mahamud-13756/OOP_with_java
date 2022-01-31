@@ -6,5 +6,7 @@ public class MathDemo {
         System.out.println(Math.sqrt(49));
         System.out.println(Math.pow(3,2));
         System.out.println(Math.PI);
+        System.out.println(Math.log(1));
+        System.out.println(Math.log(9));
     }
 }

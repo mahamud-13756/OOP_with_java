@@ -7,9 +7,9 @@ public class Box {
     double depth;
     Box(double height,double width,double depth){
 
-        height=height;
-        width=width;
-        depth=depth;
+        this.height=height;
+        this.width=width;
+        this.depth=depth;
 
     }
     void displayVol(){

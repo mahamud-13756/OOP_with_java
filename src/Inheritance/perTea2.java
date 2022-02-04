@@ -5,6 +5,7 @@ public class perTea2 {
         perTea1 ob3=new perTea1();
         ob3.display3(21,1627395555,"Dhaka");
         ob3.display3(25,16273,"Rajshahi");
+        ob3.display3(27,273,"Rangpur");
 
     }
 }

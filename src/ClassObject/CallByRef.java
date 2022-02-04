@@ -1,3 +1,5 @@
+package ClassObject;
+
 public class CallByRef {
     String name;
     void check(CallByRef ob2){

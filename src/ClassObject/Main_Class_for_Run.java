@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package ClassObject;
 
 public class Main_Class_for_Run {
 

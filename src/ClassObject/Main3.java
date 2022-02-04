@@ -1,4 +1,4 @@
-//public class Main3 {
+package ClassObject;//public class Main3 {
 //
 //    public static void main(String[] args){
 //

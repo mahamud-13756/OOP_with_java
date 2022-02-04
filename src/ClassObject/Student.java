@@ -1,3 +1,5 @@
+package ClassObject;
+
 public class Student {
 
     public String name;

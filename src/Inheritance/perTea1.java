@@ -9,9 +9,9 @@ public class perTea1 {
             Scanner s=new Scanner(System.in);
             Teacher ob1=new Teacher();
             ob1.name=s.nextLine();
-            ob1.age=23;
-            ob1.phn=1627395446;
-            ob1.add="Dhaka";
+            ob1.age=a;
+            ob1.phn=p;
+            ob1.add=ad;
             ob1.display1();
             ob1.display2();
         }

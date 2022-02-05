@@ -5,6 +5,7 @@ public class FM1 extends ForMethod {
 
     @Override
     void display() {
-        System.out.println("This is B class");
+      //  System.out.println("This is B class");
+        super.display();
     }
 }

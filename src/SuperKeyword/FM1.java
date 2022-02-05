@@ -4,8 +4,11 @@ public class FM1 extends ForMethod {
     // display method
 
     @Override
-    void display() {
+    int display() {
       //  System.out.println("This is B class");
-        super.display();
+        int c=super.display();
+        System.out.println(c);
+        int c1 = c;
+        return c1;
     }
 }
